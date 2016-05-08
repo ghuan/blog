@@ -1,0 +1,77 @@
+*{
+ 	margin : 0;
+ 	padding : 0;
+ 	overflow:hidden;
+}
+
+body {
+	font-size:12px;  
+	font-family:"宋体";
+	background-attachment : fixed;
+	background-position : 50% bottom;
+
+	background-repeat : repeat-x;
+	background-color : #a2d5f0;
+}
+
+a{
+	text-decoration : none;
+	color : white;
+}
+
+a:hover{
+	color : red;
+}
+
+#main .bottom{
+	position : absolute;
+	left : 50%;
+	margin-left : -400px;
+	width : 800px;
+	height : 104px;
+	bottom : 0px;
+	background-image : url("../images/login_root.png");
+}
+
+#main .top{
+	position : absolute;
+	left : 50%;
+	margin-left : -400px;
+	width : 800px;
+	height : 496px;
+	bottom : 104px;
+	background-image : url("../images/login_main.png");
+}
+
+#main .top .loginForm{
+	position : relative;
+	margin-top : 235px;
+	margin-left : 380px;
+	height : 160px;
+	width : 363px;
+	color : white;
+}
+
+#main .top .loginForm .name{
+	margin-left : 25px;
+
+	width : 180px;
+}
+
+#main .top .loginForm .check{
+	margin-left : 25px;
+	width : 40px;
+}
+
+#main .top .loginForm .img{
+	margin-left : 10px;
+	margin-bottom : 0px;
+}
+
+#main .top .loginForm .dl{
+	margin-left : 200px;
+	margin-top : 15px;
+	width : 84px;
+	height : 26px;
+	background : url("../images/bg_button_blue.gif");
+}
