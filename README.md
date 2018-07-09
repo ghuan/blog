@@ -1,2 +1,2 @@
 # blog
-a blog with java (beginner)
+大学期间边学边做的一个个人博客网站，纯jsp，jdbc操作数据库
